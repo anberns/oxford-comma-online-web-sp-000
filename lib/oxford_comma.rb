@@ -10,6 +10,7 @@ def oxford_comma(array)
       arr.pop
       str = arr.join(",") + " and #{last}"
   end
+  puts str
   str
 end
 
